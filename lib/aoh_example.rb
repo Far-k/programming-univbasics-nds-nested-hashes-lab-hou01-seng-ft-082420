@@ -19,7 +19,7 @@ def assembled_aoh
 
 end
 
-def literal_aoh
+
   def literal_aoh
   aoh = [
     { :name=>"Don Gately", :occupation=>"Live-in Staff"},
@@ -32,7 +32,7 @@ end
 
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
-end
+
 
 def aoh_lookup(aoh, row, key)
 
